@@ -1,0 +1,199 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-24T20:03:42.194Z",
+    "end": "2021-09-24T20:03:42.347Z",
+    "duration": 153,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ec66555a-81fa-4152-971d-31cfd6b83b19",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c2eaffa9-113a-4cd3-ac98-b81da7430691",
+          "title": "Sample Feature to Test the package",
+          "fullFile": "/home/manikandan/Documents/BG_Automation/structure2/index.js",
+          "file": "/index.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "ea898f91-2572-4cc0-8e62-420668451144",
+              "title": "testing",
+              "fullFile": "/home/manikandan/Documents/BG_Automation/structure2/index.js",
+              "file": "/index.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Given set up the test environment details for execution",
+                  "fullTitle": "Sample Feature to Test the package testing Given set up the test environment details for execution",
+                  "timedOut": false,
+                  "duration": 17,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "a265abbf-80ff-4784-b521-8da4a62d2575",
+                  "parentUUID": "ea898f91-2572-4cc0-8e62-420668451144",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Given trigger POST on calculator endpoint for the operator + with the operands 5,6",
+                  "fullTitle": "Sample Feature to Test the package testing Given trigger POST on calculator endpoint for the operator + with the operands 5,6",
+                  "timedOut": false,
+                  "duration": 75,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "c31c7b8a-6341-4ac0-9f71-355b6473b341",
+                  "parentUUID": "ea898f91-2572-4cc0-8e62-420668451144",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "a265abbf-80ff-4784-b521-8da4a62d2575",
+                "c31c7b8a-6341-4ac0-9f71-355b6473b341"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 92,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 60000
+            },
+            {
+              "uuid": "a54b2449-ff4f-43cf-9c01-2f4179f29433",
+              "title": "testing",
+              "fullFile": "/home/manikandan/Documents/BG_Automation/structure2/index.js",
+              "file": "/index.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Given set up the test environment details for execution",
+                  "fullTitle": "Sample Feature to Test the package testing Given set up the test environment details for execution",
+                  "timedOut": false,
+                  "duration": 7,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "05559a35-38dc-4ecf-b056-1023e08f156f",
+                  "parentUUID": "a54b2449-ff4f-43cf-9c01-2f4179f29433",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Given trigger POST on calculator endpoint for the operator sqr with the operands 9",
+                  "fullTitle": "Sample Feature to Test the package testing Given trigger POST on calculator endpoint for the operator sqr with the operands 9",
+                  "timedOut": false,
+                  "duration": 38,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "573fe183-c8e2-4425-a542-9050ab8c818d",
+                  "parentUUID": "a54b2449-ff4f-43cf-9c01-2f4179f29433",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "05559a35-38dc-4ecf-b056-1023e08f156f",
+                "573fe183-c8e2-4425-a542-9050ab8c818d"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 45,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 60000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 60000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 60000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.4.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "API-Automation-Test-Report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "inlineAssets": "true",
+        "reportDir": "mochawesome-report/21:3:40",
+        "reportFilename": "API-Automation-Test-Report"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-24T20:38:44.188Z",
+    "end": "2021-09-24T20:38:44.290Z",
+    "duration": 102,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ee8009a0-8abe-4030-aca0-04479f45b8cc",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ef2a1815-f211-476b-bb45-a92ca0e957b6",
+          "title": "Sample Feature to Test the package",
+          "fullFile": "/home/manikandan/Documents/BG_Automation/structure2/index.js",
+          "file": "/index.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "84deb138-493e-42ed-8065-4d98bd5c937d",
+              "title": "testing",
+              "fullFile": "/home/manikandan/Documents/BG_Automation/structure2/index.js",
+              "file": "/index.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Given set up the test environment details for execution",
+                  "fullTitle": "Sample Feature to Test the package testing Given set up the test environment details for execution",
+                  "timedOut": false,
+                  "duration": 15,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "610fd637-9b62-4492-b1d4-e1a6b258918f",
+                  "parentUUID": "84deb138-493e-42ed-8065-4d98bd5c937d",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Given trigger POST on calculator endpoint for the operator + with the operands 5,6",
+                  "fullTitle": "Sample Feature to Test the package testing Given trigger POST on calculator endpoint for the operator + with the operands 5,6",
+                  "timedOut": false,
+                  "duration": 69,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "82488a8a-dedd-4b76-a03a-d8ce7a364a16",
+                  "parentUUID": "84deb138-493e-42ed-8065-4d98bd5c937d",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "When validating the response",
+                  "fullTitle": "Sample Feature to Test the package testing When validating the response",
+                  "timedOut": false,
+                  "duration": 3,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "175dfd46-ef15-4bbf-ba50-30e694296056",
+                  "parentUUID": "84deb138-493e-42ed-8065-4d98bd5c937d",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Then the result should be return with expected value 11.00",
+                  "fullTitle": "Sample Feature to Test the package testing Then the result should be return with expected value 11.00",
+                  "timedOut": false,
+                  "duration": 2,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "106f1307-b521-4fec-9a78-e4d1964bc225",
+                  "parentUUID": "84deb138-493e-42ed-8065-4d98bd5c937d",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "610fd637-9b62-4492-b1d4-e1a6b258918f",
+                "82488a8a-dedd-4b76-a03a-d8ce7a364a16",
+                "175dfd46-ef15-4bbf-ba50-30e694296056",
+                "106f1307-b521-4fec-9a78-e4d1964bc225"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 89,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 60000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 60000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 60000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.4.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "API-Automation-Test-Report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "inlineAssets": "true",
+        "reportDir": "mochawesome-report/21:38:42",
+        "reportFilename": "API-Automation-Test-Report"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

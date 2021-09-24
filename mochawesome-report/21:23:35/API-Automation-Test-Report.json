@@ -1,0 +1,160 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-24T20:23:36.219Z",
+    "end": "2021-09-24T20:23:36.303Z",
+    "duration": 84,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "15ab6e86-1f13-479b-94da-88bae428332b",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "00455965-5c38-470c-aff2-f0236d28589e",
+          "title": "Sample Feature to Test the package",
+          "fullFile": "/home/manikandan/Documents/BG_Automation/structure2/index.js",
+          "file": "/index.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "245db69a-ad99-43fb-b695-542ae77e49b8",
+              "title": "testing",
+              "fullFile": "/home/manikandan/Documents/BG_Automation/structure2/index.js",
+              "file": "/index.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Given set up the test environment details for execution",
+                  "fullTitle": "Sample Feature to Test the package testing Given set up the test environment details for execution",
+                  "timedOut": false,
+                  "duration": 9,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "2bec2e00-c4ac-43e5-a30c-436d1d30f05b",
+                  "parentUUID": "245db69a-ad99-43fb-b695-542ae77e49b8",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Given trigger POST on calculator endpoint for the operator + with the operands 5,6",
+                  "fullTitle": "Sample Feature to Test the package testing Given trigger POST on calculator endpoint for the operator + with the operands 5,6",
+                  "timedOut": false,
+                  "duration": 65,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "244cca3d-2462-4fab-882e-35279577ca42",
+                  "parentUUID": "245db69a-ad99-43fb-b695-542ae77e49b8",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "When validating the response",
+                  "fullTitle": "Sample Feature to Test the package testing When validating the response",
+                  "timedOut": false,
+                  "duration": 4,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "ba704369-ef56-467a-ab79-07e0ff642d5d",
+                  "parentUUID": "245db69a-ad99-43fb-b695-542ae77e49b8",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "2bec2e00-c4ac-43e5-a30c-436d1d30f05b",
+                "244cca3d-2462-4fab-882e-35279577ca42",
+                "ba704369-ef56-467a-ab79-07e0ff642d5d"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 78,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 60000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 60000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 60000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.4.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "API-Automation-Test-Report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "inlineAssets": "true",
+        "reportDir": "mochawesome-report/21:23:35",
+        "reportFilename": "API-Automation-Test-Report"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

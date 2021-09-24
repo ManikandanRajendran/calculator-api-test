@@ -1,0 +1,247 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 6,
+    "passes": 4,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-09-24T20:17:06.473Z",
+    "end": "2021-09-24T20:17:06.594Z",
+    "duration": 121,
+    "testsRegistered": 6,
+    "passPercent": 66.66666666666666,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "af7f5d70-d864-4024-964f-8ee2f19ca336",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "53164eb4-e4ff-462a-adfe-b40e2d6549e1",
+          "title": "Sample Feature to Test the package",
+          "fullFile": "/home/manikandan/Documents/BG_Automation/structure2/index.js",
+          "file": "/index.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "3d1be5ff-6dee-4256-801e-44b26a9f6450",
+              "title": "testing",
+              "fullFile": "/home/manikandan/Documents/BG_Automation/structure2/index.js",
+              "file": "/index.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Given set up the test environment details for execution",
+                  "fullTitle": "Sample Feature to Test the package testing Given set up the test environment details for execution",
+                  "timedOut": false,
+                  "duration": 9,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "0c4c38e4-9462-46e7-abe0-a548da616f59",
+                  "parentUUID": "3d1be5ff-6dee-4256-801e-44b26a9f6450",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Given trigger POST on calculator endpoint for the operator + with the operands 5,6",
+                  "fullTitle": "Sample Feature to Test the package testing Given trigger POST on calculator endpoint for the operator + with the operands 5,6",
+                  "timedOut": false,
+                  "duration": 61,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "fb3f6f03-893b-4909-b8e6-9aa9f31a95eb",
+                  "parentUUID": "3d1be5ff-6dee-4256-801e-44b26a9f6450",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "When validating the response",
+                  "fullTitle": "Sample Feature to Test the package testing When validating the response",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {
+                    "message": "Error: Scenario cannot be interpreted\nWhen validating the response <-- Undefined Step",
+                    "estack": "Error: Scenario cannot be interpreted\nWhen validating the response <-- Undefined Step\n    at Interpreter.validate (node_modules/yadda/lib/Interpreter.js:29:50)\n    at Yadda.yadda (node_modules/yadda/lib/Yadda.js:24:26)\n    at Context.<anonymous> (node_modules/ya-done-api/src/lib/yadda-core.js:32:31)\n    at /home/manikandan/Documents/BG_Automation/structure2/node_modules/yadda/lib/plugins/mocha/StepLevelPlugin.js:37:39\n    at Context.<anonymous> (node_modules/yadda/lib/plugins/mocha/BasePlugin.js:38:13)\n    at processImmediate (internal/timers.js:456:21)",
+                    "diff": null
+                  },
+                  "uuid": "80c0d5f4-f31a-4f40-8871-2c2ae06469bf",
+                  "parentUUID": "3d1be5ff-6dee-4256-801e-44b26a9f6450",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "0c4c38e4-9462-46e7-abe0-a548da616f59",
+                "fb3f6f03-893b-4909-b8e6-9aa9f31a95eb"
+              ],
+              "failures": [
+                "80c0d5f4-f31a-4f40-8871-2c2ae06469bf"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 70,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 60000
+            },
+            {
+              "uuid": "7760d376-0467-4905-bc65-6c870287ddfd",
+              "title": "testing",
+              "fullFile": "/home/manikandan/Documents/BG_Automation/structure2/index.js",
+              "file": "/index.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Given set up the test environment details for execution",
+                  "fullTitle": "Sample Feature to Test the package testing Given set up the test environment details for execution",
+                  "timedOut": false,
+                  "duration": 2,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "3ddb43b6-a655-4d52-bcfc-fb05e76a53f0",
+                  "parentUUID": "7760d376-0467-4905-bc65-6c870287ddfd",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Given trigger POST on calculator endpoint for the operator sqr with the operands 9",
+                  "fullTitle": "Sample Feature to Test the package testing Given trigger POST on calculator endpoint for the operator sqr with the operands 9",
+                  "timedOut": false,
+                  "duration": 37,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {},
+                  "uuid": "17cfc293-706a-4263-927d-bb149c9efef5",
+                  "parentUUID": "7760d376-0467-4905-bc65-6c870287ddfd",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "When validating the response",
+                  "fullTitle": "Sample Feature to Test the package testing When validating the response",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": null,
+                  "code": "iterator(this, subject, done);",
+                  "err": {
+                    "message": "Error: Scenario cannot be interpreted\nWhen validating the response <-- Undefined Step",
+                    "estack": "Error: Scenario cannot be interpreted\nWhen validating the response <-- Undefined Step\n    at Interpreter.validate (node_modules/yadda/lib/Interpreter.js:29:50)\n    at Yadda.yadda (node_modules/yadda/lib/Yadda.js:24:26)\n    at Context.<anonymous> (node_modules/ya-done-api/src/lib/yadda-core.js:32:31)\n    at /home/manikandan/Documents/BG_Automation/structure2/node_modules/yadda/lib/plugins/mocha/StepLevelPlugin.js:37:39\n    at Context.<anonymous> (node_modules/yadda/lib/plugins/mocha/BasePlugin.js:38:13)\n    at processImmediate (internal/timers.js:456:21)",
+                    "diff": null
+                  },
+                  "uuid": "579657bd-1cb2-4b79-b78d-99b2c235466b",
+                  "parentUUID": "7760d376-0467-4905-bc65-6c870287ddfd",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "3ddb43b6-a655-4d52-bcfc-fb05e76a53f0",
+                "17cfc293-706a-4263-927d-bb149c9efef5"
+              ],
+              "failures": [
+                "579657bd-1cb2-4b79-b78d-99b2c235466b"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 39,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 60000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 60000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 60000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.4.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "API-Automation-Test-Report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "inlineAssets": "true",
+        "reportDir": "mochawesome-report/21:17:5",
+        "reportFilename": "API-Automation-Test-Report"
+      },
+      "version": "4.1.0"
+    }
+  }
+}
