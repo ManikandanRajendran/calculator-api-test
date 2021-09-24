@@ -7,8 +7,7 @@
 1. [ya-done-api](https://www.npmjs.com/package/ya-done-api/v/1.0.0)
 2. [mocha](https://www.npmjs.com/package/mocha)
 3. [expect]()
-4. [email-validator](https://www.npmjs.com/package/email-validator)
-5. [mochawesome](https://www.npmjs.com/package/mochawesome)
+4. [mochawesome](https://www.npmjs.com/package/mochawesome)
 
 **Directory Structure**
 
